@@ -1,7 +1,7 @@
 {
   "$schema": "https://github.com/devcontainers/spec/raw/main/schemas/devContainerFeature.schema.json",
   "id": "vscode-persist-extensions",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "name": "VSCode Persist Extensions",
   "description": "Setup folders for VSCode extensions to persist between rebuilds in volumes",
   "installsAfter": [
@@ -19,12 +19,5 @@
       "default": "automatic",
       "description": "Enter name of non-root user to configure or none to skip"
     }
-  },
-  "mounts": [
-    {
-      "source": "vscode-extensions-${devcontainerId}",
-      "target": "${remoteUser}/.vscode-server/extensions",
-      "type": "volume"
-    }
-  ]
+  }
 }
