@@ -28,6 +28,5 @@ jobs:
           imageName: ghcr.io/adam-jacobus/devcontainer-reach
           cacheFrom: ghcr.io/adam-jacobus/devcontainer-reach
           imageTag: ${{ steps.get_tag_name.outputs.tag }}
-          runCmd: 'true'
 
 
