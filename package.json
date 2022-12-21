@@ -1,0 +1,14 @@
+{
+  "name": "devcontainer-reach",
+  "version": "0.1.0",
+  "description": "Dev Container image for Reach project",
+  "author": "Adam Jacobus",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "devcontainer build --workspace-folder ."
+  },
+  "devDependencies": {
+    "@devcontainers/cli": "^0.26.1"
+  }
+}
