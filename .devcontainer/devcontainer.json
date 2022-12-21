@@ -29,6 +29,6 @@
     "ghcr.io/devcontainers/features/sshd:1": {},
     "ghcr.io/dhoeric/features/google-cloud-cli:1": {},
     "ghcr.io/dhoeric/features/k9s:1": {},
-    "../features/src/vscode-extensions": {}
+    "ghcr.io/adam-jacobus/features/vscode-persist-extensions:0.1.0": {}
   }
 }
